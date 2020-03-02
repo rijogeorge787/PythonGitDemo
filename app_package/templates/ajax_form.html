@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FLASK_AJAX</title>
+        <link rel="stylesheet" href="/static/css/ajax_form.css">
+       
+    </head>
+    <body>
+        <fieldset>
+        <legend>Ajax Calculator</legend>
+        <p><input type="text" id="value1" placeholder="Enter value" autofocus></p>
+        <p><input type="text" id="value2" placeholder="Enter value"></p>
+        <p>
+        <button type="button" onclick="ajax_add();">Add</button>
+        <button type="button" onclick="ajax_subtract();">Subtract</button>
+        <button type="button" onclick="ajax_multiply();">Multiply</button>
+        <button type="button" onclick="ajax_divide();">Divide</button>
+        </p>
+        <p>
+        <span>Result:</span><span id="result"></span></p>
+        </fieldset>
+         <script src="/static/js/ajax_form.js"></script>
+        </body>
+</html>
